@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.js"></script>
+
 <title>Document</title>
 
 <h1>Frise chronologique</h1>
@@ -39,8 +41,16 @@ const TimelineEvent = (event) => {
 
   const dateStart = document.createElement('time');
   dateStart.datetime = event.meta['date-start'];
-  dateStart.textContent = event.meta['date-start'];
+  dateStart.textContent = moment(event.meta['date-start']).format('MMMM Do YYYY');
   buzzer.append(dateStart);
+
+  const endDate = event.meta['date-end'];
+  if(endDate){
+    const dateEnd = document.createElement('time');
+    dateEnd.datetime = endDate;
+    dateEnd.textContent = moment(endDate).format('MMMM Do YYYY');
+    buzzer.append(dateEnd);
+  }
 
   article.append(buzzer);
   return article;
