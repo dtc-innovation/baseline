@@ -9,7 +9,7 @@
 
 <h1>Timeline</h1>
 
-<ul>
+<!-- <ul>
   <li>
     <a href="https://sudweb.fr/2017">
       <h2>Sudweb</h2>
@@ -29,11 +29,52 @@
       <time datetime="2001-07-15T19:00" class="date-end">July 17</time>
       <ul>
         <li>Yannick</li>
-        <li>David de Bruant des cabinets de dtc de l'innovation</li>
+        <li>David de Bruant des cabinets de dtc de l'innovation, vicomte de Javascript</li>
       </ul>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </a>
   </li>
-</ul>
+</ul> -->
+
+<section id="events">
+</section>
+
+<template id="templateEvents">
+  <article>
+      <a href="https://sudweb.fr/2017">
+        <h2>Sudweb</h2>
+        <time datetime="2001-05-15T19:00" class="date-start">May 15</time>
+        <time datetime="2001-05-15T19:00" class="date-end">May 17</time>
+        <ul>
+          <li>Yannick</li>
+          <li>David de Bruant des cabinets de dtc de l'innovation</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </a>
+  </article>
+</template>
+
+<script type="text/javascript">
+
+const renderEvents = () => {
+  const container = document.querySelector('#events')
+  const templateEvents = document.querySelector('#templateEvents').content
+  const link = templateEvents.querySelector('a')
+  const title = templateEvents.querySelector('h2')
+
+  fetch('http://api.daktary.com/la-contree/baseline/tree/master/events')
+    .then(response => response.json())
+    .then(events => {
+      events.body.forEach(event => {
+        link.href = event.meta.url
+        title.innerText = event.meta.name
+
+        container.appendChild(document.importNode(templateEvents, true))
+      })
+    })
+}
+
+renderEvents()
+</script>
 
 </html>
