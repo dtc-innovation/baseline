@@ -52,6 +52,19 @@ const TimelineEvent = (event) => {
     buzzer.append(dateEnd);
   }
 
+  const people = event.meta['people']
+  const peopleList = document.createElement('ul');
+  people.forEach(person => {
+    const li = document.createElement('li');
+    li.textContent = person;
+    peopleList.append(li);
+  })
+  buzzer.append(peopleList);
+
+  const content = document.createElement('div');
+  content.innerHTML = event.body;
+  buzzer.append(content);
+
   article.append(buzzer);
   return article;
 }
