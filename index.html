@@ -6,13 +6,13 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Document</title>
 
-<h1 lang="en">Timeline</h1>
+<h1>Frise chronologique</h1>
 
 <section id="events">
 </section>
 
 <script>
-"use strict";
+'use strict';
 
 const renderEvents = () => {
   const container = document.querySelector('#events');
@@ -36,6 +36,11 @@ const TimelineEvent = (event) => {
   const title = document.createElement('h2');
   title.textContent = event.meta.name;
   buzzer.append(title);
+
+  const dateStart = document.createElement('time');
+  dateStart.datetime = event.meta['date-start'];
+  dateStart.textContent = event.meta['date-start'];
+  buzzer.append(dateStart);
 
   article.append(buzzer);
   return article;
