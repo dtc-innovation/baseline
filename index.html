@@ -1,51 +1,47 @@
 <!DOCTYPE html>
-<html lang=fr>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
+<html lang="fr">
 
-<h1>Timeline</h1>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+
+<h1 lang="en">Timeline</h1>
 
 <section id="events">
 </section>
 
-<template id="templateEvents">
-  <article>
-      <a href="">
-        <h2></h2>
-        <time datetime="" class="date-start"></time>
-        <time datetime="" class="date-end"></time>
-        <ul>
-        </ul>
-        <p></p>
-      </a>
-  </article>
-</template>
-
-<script type="text/javascript">
+<script>
+"use strict";
 
 const renderEvents = () => {
-  const container = document.querySelector('#events')
-  const templateEvents = document.querySelector('#templateEvents').content
-  const link = templateEvents.querySelector('a')
-  const title = templateEvents.querySelector('h2')
+  const container = document.querySelector('#events');
 
   fetch('http://api.daktary.com/la-contree/baseline/tree/master/events')
     .then(response => response.json())
     .then(events => {
       events.body.forEach(event => {
-        link.href = event.meta.url
-        title.innerText = event.meta.name
+        const article = TimelineEvent(event);
+        container.append(article);
+      });
+    });
+};
 
-        container.appendChild(document.importNode(templateEvents, true))
-      })
-    })
+const TimelineEvent = (event) => {
+  const article = document.createElement('article');
+
+  const buzzer = document.createElement('a');
+  buzzer.href = event.meta.url;
+
+  const title = document.createElement('h2');
+  title.textContent = event.meta.name;
+  buzzer.append(title);
+
+  article.append(buzzer);
+  return article;
 }
 
-renderEvents()
+renderEvents();
 </script>
 
 </html>
