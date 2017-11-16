@@ -6,6 +6,69 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.js"></script>
 
+<style>
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+
+  #events article {
+    width: 400px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+
+  #events a {
+    display: block;
+    padding: 2rem;
+    color: #000;
+    text-decoration: none;
+  }
+
+  #events a:hover h2 {
+    color: red;
+  }
+
+  #events h2 {
+    margin: 0 0 1.5rem;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #events time:nth-of-type(2)::before {
+    content: '-';
+    margin: 0 .5rem;
+  }
+
+  #events ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  #events li {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #ccc;
+  }
+
+  #events li:not(:first-child) {
+    margin-left: .5rem;
+  }
+
+  #events p {
+    margin: 0;
+  }
+
+</style>
+
 <title>Document</title>
 
 <h1>Frise chronologique</h1>
@@ -20,13 +83,13 @@ const renderEvents = () => {
   const container = document.querySelector('#events');
 
   fetch('http://api.daktary.com/la-contree/baseline/tree/master/events')
-    .then(response => response.json())
-    .then(events => {
-      events.body.forEach(event => {
-        const article = TimelineEvent(event);
-        container.append(article);
-      });
+  .then(response => response.json())
+  .then(events => {
+    events.body.forEach(event => {
+      const article = TimelineEvent(event);
+      container.append(article);
     });
+  });
 };
 
 const TimelineEvent = (event) => {
