@@ -71,7 +71,7 @@
 
 <title>Document</title>
 
-<h1>Frise chronologique</h1>
+<h1>Fraise chronophagique</h1>
 
 <section id="events">
 </section>
@@ -85,7 +85,9 @@ const renderEvents = () => {
   fetch('http://api.daktary.com/la-contree/baseline/tree/master/events')
   .then(response => response.json())
   .then(events => {
-    events.body.forEach(event => {
+    events.body.sort((e1,e2) => {
+      return new Date(e2.meta['date-start']).getTime() - new Date(e1.meta['date-start']).getTime()
+    }).forEach(event => {
       const article = TimelineEvent(event);
       container.append(article);
     });
