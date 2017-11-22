@@ -112,7 +112,7 @@
 const renderEvents = () => {
   const container = document.querySelector('#events');
 
-  fetch('http://api.daktary.com/la-contree/baseline/tree/master/events')
+  fetch('https://api.daktary.com/la-contree/baseline/tree/master/events')
   .then(response => response.json())
   .then(events => {
     events.body.sort((e1,e2) => {
