@@ -147,7 +147,7 @@ const TimelineEvent = (event) => {
     buzzer.append(dateEnd);
   }
 
-  const people = event.meta['people'] or []
+  const people = event.meta['people'] || [];
   const peopleList = document.createElement('ul');
   people.forEach(person => {
     const li = document.createElement('li');
