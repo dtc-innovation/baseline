@@ -7,7 +7,7 @@ date-end: 2018-07-30
 people:
   - David
   - Thomas
-  - Clémentie
+  - Clémentine
 ---
 
 # Pourquoi c'est important pour nous
