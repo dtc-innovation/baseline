@@ -2,7 +2,7 @@
 name: On a enfin reçu notre bilan comptable
 url: non pertinent
 lieu : tel , mail et recommandé (jamais en présentiel)
-date-start: 2018-07-30
+date-start: 2018-03-15
 date-end: 2018-07-30
 people:
   - David
