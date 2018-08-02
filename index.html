@@ -127,8 +127,10 @@ const renderEvents = () => {
 const TimelineEvent = (event) => {
   const article = document.createElement('article');
 
-  const buzzer = document.createElement('a');
-  buzzer.href = event.meta.url;
+  const buzzer = document.createElement('span');
+  if (event.meta.url) {
+    buzzer.href = event.meta.url;
+  }
 
   const title = document.createElement('h2');
   title.textContent = event.meta.name;
