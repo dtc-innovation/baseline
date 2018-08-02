@@ -50,7 +50,7 @@
 
   }
 
-  #events a {
+  #events .card {
     width: 400px;
     border: 1px solid #aaa;
     border-radius: 4px;
@@ -127,10 +127,11 @@ const renderEvents = () => {
 const TimelineEvent = (event) => {
   const article = document.createElement('article');
 
-  const buzzer = document.createElement('span');
+  const buzzer = document.createElement(event.meta.url ? 'a' : 'div');
   if (event.meta.url) {
     buzzer.href = event.meta.url;
   }
+  buzzer.classList.add('card');
 
   const title = document.createElement('h2');
   title.textContent = event.meta.name;
