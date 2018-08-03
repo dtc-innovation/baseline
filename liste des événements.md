@@ -1,4 +1,7 @@
 - SudWeb 2016 : david thomas et clémentine ; apprendre à se connaitre
+> c'est le moment où la crystalisation de "on fait dtc" a eu lieu. On se rencontrait pour la première fois dans une même pièce. Discuter avec d'autres gens du même métier.
+> est-ce que t'as appris un truc en particulier ? hm, j'étais là pour rencontrer 
+> qu'est-ce que ça a changé/représenté ? que dtc c'était faisable (en terme de projet)
 - Web à Québec : david & clémentine; rencontre importantes
 - Paris Web : david, Thomas & clémentine ;  1er atelier donné par Clémentine
 - Mutinerie Village : workweek
@@ -19,3 +22,4 @@
 - Publication article Clméentine pour 24 jorus de web
 - Conf thomas sur l'écriture (je sais plus où c'était en Europe mais c'était l'été dernier) 
 - Visite SNC
+
