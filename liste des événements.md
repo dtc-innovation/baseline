@@ -10,8 +10,14 @@
 > qu'est-ce que ça a changé/représenté ? j'ai mieux compris le contexte et on a rencontré le Service Numérique du Canada
 >
 > ressource/attachment : "hidden values" Tim Goodwin, mon post "Vu et entendu"
-- Paris Web : david, Thomas & clémentine ;  1er atelier donné par Clémentine
-- Mutinerie Village : workweek
+- Paris Web 2017 : david, Thomas & clémentine ; Paris ; 1er atelier donné par Clémentine
+> Première fois que je donnais un atelier — gros cap à passer. J'ai beaucoup aimé comment on l'a préparé ensemble. Démonstration de notre équipe par l'exemple. On avait réfléchi ensemble. Vous m'avez aidé à faire un truc. La présentation a eu lieu et ça s'est bien passé.
+>
+> ce qui m'a marqué : les confs informelles pendant le programme officiel de conf', pour les rencontres, et elles étaient toutes chouettes (femmes au travail, qu'est-ce qu'une entreprise différente, etc.), avec le cadre qui va bien.
+- Mutinerie Village : workweek; Perche
+> C'était la première fois qu'on passait autant de temps ensemble. Avec des moments de vie, on fait à manger, on se réveille et tout ça. Et en 4 jours on a abattu bête de travail, des sujets pas faciles (admin, comment gérer les projets), dans de bonnes conditions, concentrées et au calme). C'était une confirmation qu'on est une équipe. Le cadre était raccord avec nous.
+>
+> qu'est-ce que ça a changé/représenté ? ça a consolidé qu'en tant qu'équipe, on pouvait tout faire alors qu'en arrivant y'aavit des trucs qui me paraissaient insurmontables et qu'on n'avait jamais fait. Y'a pas de problème insurmontable quand on le fait ensemble.
 - WorkWeek à Bordeaux : david Thomas et Clémentine : discussions difficiles cf situation financière et itération sur process communication à distance
 - SudWeb 2018 : david thomas et clémentine ;  1ère conf donnée par Clémentine
 - Rendu de Mind The Gap : Thomas ; Nouveeauté dans process de boulot,un rendu
