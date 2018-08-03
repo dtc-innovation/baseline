@@ -32,7 +32,10 @@
 - Début itinérance Thomas
 - David au Québec de janvier à avril
 - Clémentine départ pour Montréal
-- Publication article Clméentine pour 24 jorus de web
+> Le premier départ de quelqu'un de dtc à l'étranger. Important parce que c'était le respect de choix de vie de l'un de nous, et c'est dtc qui s'est adapté. A cette occasion dtc a payé l'assurance santé de Clémentine et son partenaire pour l'étranger et c'est exactement ce que devrait faire une entreprise. Ce choix de vie a été discuté ensemble et on a pu continuer dtc en fonction de ça après en avoir discuté ensemble. Permettre aux membres de dtc de " partir et rester en même temps. " 
+>
+> qu'est-ce que ça a changé/représenté ? Bordeaux n'était plus le point central de dtc, la première fois où dtc était vraiment distribué, on était tous à la même enseigne pour la première fois. A changé l'équilibre géographique et du même coup notre façon de communiquer ensemble qui a du être retravaillé / amélioré. 
+- Publication article Clméentine pour 24 jours de web
 - Conf thomas sur l'écriture (je sais plus où c'était en Europe mais c'était l'été dernier) 
 - Visite SNC
 
