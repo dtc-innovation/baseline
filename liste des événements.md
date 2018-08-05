@@ -23,8 +23,9 @@
 - Rendu de Mind The Gap : Thomas ; Nouveeauté dans process de boulot,un rendu
 - Rendu Dataviz publication données databiz avec vote comptes admin  9 novembre 2017 : david ; rendu, Fin du premier gros projet, publication open source de données i publiques, gros pas en avant
 - Hackathon données fi : david et Clémentine ;  rencontre interessante ++ avec Cour des Comptes et Romain Tales et orga 
-- La contrée
-- Open Agile 
+- La contrée ; novembre 2017
+- Agile Open France ; janvier 2017 ; Alsace
+- Agile Open France ; juillet 2018 ; Cévennes
 - Salariat David (1er mars) 
 - Salariat Clémentine (1er avril)
 - Salariat Thomas (1er juillet)
@@ -36,6 +37,16 @@
 >
 > qu'est-ce que ça a changé/représenté ? Bordeaux n'était plus le point central de dtc, la première fois où dtc était vraiment distribué, on était tous à la même enseigne pour la première fois. A changé l'équilibre géographique et du même coup notre façon de communiquer ensemble qui a du être retravaillé / amélioré. 
 - Publication article Clméentine pour 24 jours de web
-- Conf thomas sur l'écriture (je sais plus où c'était en Europe mais c'était l'été dernier) 
+- Write the Docs 2017 ; Prague ; présentation d'un sujet
 - Visite SNC
-
+- MiXiT 2017 ; Lyon ; avril 2017 ; présentation et participation
+- Publication du livre « Node.js » ; octobre 2018
+- Publication dans Sciences du Design ; novembre 2018
+- Blend Webmix 2018 ; octobre 2018
+- Rencontre intercoopératives ; mars 2018 ; Montpellier ; observation
+- Printemps d'InPACT ; mai 2018 ; Gommerville ; bénévolat
+- Design Sprint Finances publiques & collectivités
+- Ateliers Node.js / npm / JavaScript ; Janvier 2018 ; Etalab/beta.gouv.fr
+- Atelier « Sites web sans bases de données » ; 8 juin 2018 ; Crest ; Fablab 8+
+- Atelier « Sites web sans bases de données » ; 14 novembre 2018 ; Crest ; Usine Vivante
+- Meetup Women on Rails ; ponctuellement entre avril et juillet 2017 ; Paris
