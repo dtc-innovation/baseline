@@ -50,3 +50,4 @@
 - Atelier « Sites web sans bases de données » ; 8 juin 2018 ; Crest ; Fablab 8+
 - Atelier « Sites web sans bases de données » ; 14 novembre 2018 ; Crest ; Usine Vivante
 - Meetup Women on Rails ; ponctuellement entre avril et juillet 2017 ; Paris
+- Meetup « Écrire à plusieurs avec GitHub » ; Grenoble ; 23 février 2017
