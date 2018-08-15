@@ -1,7 +1,7 @@
 - SudWeb 2016 : david thomas et clémentine ; Bordeaux ; apprendre à se connaitre
 > c'est le moment où la crystalisation de "on fait dtc" a eu lieu. On se rencontrait pour la première fois dans une même pièce. Discuter avec d'autres gens du même métier.
 >
-> est-ce que t'as appris un truc en particulier ? hm, j'étais là pour rencontrer 
+> est-ce que t'as appris un truc en particulier ? hm, j'étais là pour rencontrer
 >
 > qu'est-ce que ça a changé/représenté ? que dtc c'était faisable (en terme de projet)
 - Web à Québec 2018 : david & clémentine; Montréal; rencontre importantes
@@ -22,20 +22,20 @@
 - SudWeb 2018 : david thomas et clémentine ;  1ère conf donnée par Clémentine
 - Rendu de Mind The Gap : Thomas ; Nouveeauté dans process de boulot,un rendu
 - Rendu Dataviz publication données databiz avec vote comptes admin  9 novembre 2017 : david ; rendu, Fin du premier gros projet, publication open source de données i publiques, gros pas en avant
-- Hackathon données fi : david et Clémentine ;  rencontre interessante ++ avec Cour des Comptes et Romain Tales et orga 
+- Hackathon données fi : david et Clémentine ;  rencontre interessante ++ avec Cour des Comptes et Romain Tales et orga
 - La contrée ; novembre 2017
 - Agile Open France ; janvier 2017 ; Alsace
 - Agile Open France ; juillet 2018 ; Cévennes
-- Salariat David (1er mars) 
+- Salariat David (1er mars)
 - Salariat Clémentine (1er avril)
 - Salariat Thomas (1er juillet)
 - Départ Londres Thomas
 - Début itinérance Thomas
 - David au Québec de janvier à avril
 - Clémentine départ pour Montréal
-> Le premier départ de quelqu'un de dtc à l'étranger. Important parce que c'était le respect de choix de vie de l'un de nous, et c'est dtc qui s'est adapté. A cette occasion dtc a payé l'assurance santé de Clémentine et son partenaire pour l'étranger et c'est exactement ce que devrait faire une entreprise. Ce choix de vie a été discuté ensemble et on a pu continuer dtc en fonction de ça après en avoir discuté ensemble. Permettre aux membres de dtc de " partir et rester en même temps. " 
+> Le premier départ de quelqu'un de dtc à l'étranger. Important parce que c'était le respect de choix de vie de l'un de nous, et c'est dtc qui s'est adapté. A cette occasion dtc a payé l'assurance santé de Clémentine et son partenaire pour l'étranger et c'est exactement ce que devrait faire une entreprise. Ce choix de vie a été discuté ensemble et on a pu continuer dtc en fonction de ça après en avoir discuté ensemble. Permettre aux membres de dtc de " partir et rester en même temps. "
 >
-> qu'est-ce que ça a changé/représenté ? Bordeaux n'était plus le point central de dtc, la première fois où dtc était vraiment distribué, on était tous à la même enseigne pour la première fois. A changé l'équilibre géographique et du même coup notre façon de communiquer ensemble qui a du être retravaillé / amélioré. 
+> qu'est-ce que ça a changé/représenté ? Bordeaux n'était plus le point central de dtc, la première fois où dtc était vraiment distribué, on était tous à la même enseigne pour la première fois. A changé l'équilibre géographique et du même coup notre façon de communiquer ensemble qui a du être retravaillé / amélioré.
 - Publication article Clméentine pour 24 jours de web
 - Write the Docs 2017 ; Prague ; présentation d'un sujet
 - Visite SNC
@@ -47,7 +47,7 @@
 - Printemps d'InPACT ; mai 2018 ; Gommerville ; bénévolat
 - Design Sprint Finances publiques & collectivités
 - Ateliers Node.js / npm / JavaScript ; Janvier 2018 ; Etalab/beta.gouv.fr
-- Atelier « Sites web sans bases de données » ; 8 juin 2018 ; Crest ; Fablab 8+
-- Atelier « Sites web sans bases de données » ; 14 novembre 2018 ; Crest ; Usine Vivante
-- Meetup Women on Rails ; ponctuellement entre avril et juillet 2017 ; Paris
-- Meetup « Écrire à plusieurs avec GitHub » ; Grenoble ; 23 février 2017
+- [x] Atelier « Sites web sans bases de données » ; 8 juin 2018 ; Crest ; Fablab 8+
+- [x] Atelier « Sites web sans bases de données » ; 14 novembre 2018 ; Crest ; Usine Vivante
+- [x] Meetup Women on Rails ; ponctuellement entre avril et juillet 2017 ; Paris
+- [x] Meetup « Écrire à plusieurs avec GitHub » ; Grenoble ; 23 février 2017
