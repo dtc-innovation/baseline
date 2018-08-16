@@ -1,7 +1,8 @@
 ---
 title: Publication dans Sciences du Design
 url: https://antoinentl.gitlab.io/readme.book/
-date: 2018-10
+date-start: 2018-10
+date-end: 2018-10
 people:
 - Thomas
 with:
