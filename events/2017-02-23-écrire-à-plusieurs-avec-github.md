@@ -5,6 +5,7 @@ duration: P3H
 type: Meetup
 invited_by: Antoine (https://www.quaternum.net)
 url: http://www.la-coop.net/evenement/ecrire-avec-github/
+what: Facilitation
 date-start: 2017-02-23
 date-end: 2017-02-23
 resources:
