@@ -1,7 +1,7 @@
 ---
 title: Des sites web sans bases de données
-date-start: 2018-11-14
-date-end: 2018-11-14
+date-start: 2018-06-08
+date-end: 2018-06-08
 duration: P2H
 where: Crest, France
 venue: Fablab 8+

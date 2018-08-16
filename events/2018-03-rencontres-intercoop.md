@@ -6,6 +6,7 @@ date-start: 2017-03-31
 date-end: 2017-04-01
 where: Montpellier, France
 what: Participation
+invited_by: Élie (https://lacagette-coop.fr)
 people:
 - Thomas
 with:
