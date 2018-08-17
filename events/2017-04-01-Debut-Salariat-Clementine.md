@@ -9,7 +9,6 @@ what:
 date-start:2017-04-01
 date-end: 
 resources:
-- 
 people:
 - Clémentine
 ---
