@@ -51,3 +51,4 @@
 - [x] Atelier « Sites web sans bases de données » ; 14 novembre 2018 ; Crest ; Usine Vivante
 - [x] Meetup Women on Rails ; ponctuellement entre avril et juillet 2017 ; Paris
 - [x] Meetup « Écrire à plusieurs avec GitHub » ; Grenoble ; 23 février 2017
+- [ ] /ut7 nous fait cadeau d'un jeu de clés de la boutique ; Paris ; 15 juin 2018
